@@ -1,0 +1,6 @@
+com\qa\testcases\Base.class
+com\qa\testcases\Logintest.class
+com\qa\testcases\LoginTest_DDT.class
+com\qa\page\LoginPage.class
+com\qa\util\Testutil.class
+com\qa\util\Readconfig.class

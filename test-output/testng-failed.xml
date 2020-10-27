@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [freecrm suite]">
+  <test thread-count="5" name="Freecrm App Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.LoginTest_DDT">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="ddtloginTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginTest_DDT -->
+    </classes>
+  </test> <!-- Freecrm App Test(failed) -->
+</suite> <!-- Failed suite [freecrm suite] -->
