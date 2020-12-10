@@ -1,6 +1,8 @@
 package com.qa.testcases;
 
 import java.io.IOException;
+
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -22,12 +24,13 @@ public class LoginTest_DDT extends Base{
 		Thread.sleep(3000);
 		lpage.clickbtn();
 		logger.info("Login button clicked ");
-		lpage.titletest();
+		Assert.assertEquals("CRMPRO",lpage.gettitle());
 		logger.info("Title test passed");
 
-		Thread.sleep(3000);
+		//Thread.sleep(5000);
 		lpage.logout();
 		logger.info("Logout button clicked");
+		driver.switchTo().defaultContent();
 
 	}
 

@@ -6,11 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {	
+import com.qa.util.WaitHelper;
+
+public class LoginPage {
+	WaitHelper waithelp;
 	WebDriver driver;	
 	public LoginPage(WebDriver ldriver) {	
 		this.driver=ldriver;
-		PageFactory.initElements(driver, this);			
+		PageFactory.initElements(driver, this);	
+		waithelp=new WaitHelper(ldriver);
+		
+		
 	}
 
 
@@ -25,20 +31,31 @@ public class LoginPage {
 
 	@FindBy(xpath="//a[contains(text(),'Logout')]")
 	WebElement logout;
+	
+	
+	public String gettitle() {
+		  
+		  return driver.getTitle();
+		  
+	  }
+	
 
 	public void logout() {
-
+        waithelp.waitforelement(logout, 10);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 	 	js.executeScript("arguments[0].click();", logout) ; 
 
 	}
 
 	public void setusername(String uname) {
+		
+	   waithelp.waitforelement(username, 10);
 		username.clear();
 		username.sendKeys(uname);
 
 	}
 	public void password(String pwd) {
+		waithelp.waitforelement(password, 10);
 		password.clear();
 		password.sendKeys(pwd);
 
@@ -48,15 +65,6 @@ public class LoginPage {
 
 	}
 
-	public void titletest() {
-
-		System.out.println(driver.getTitle());
-
-
-
-
-
-
-	}
+	
 
 }

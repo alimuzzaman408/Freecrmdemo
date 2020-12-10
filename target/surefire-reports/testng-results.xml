@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="freecrm suite" duration-ms="15282" started-at="2020-10-27T17:54:35 EDT" finished-at="2020-10-27T17:54:51 EDT">
+  <suite name="freecrm suite" duration-ms="15361" started-at="2020-12-08T13:53:48 EST" finished-at="2020-12-08T13:54:03 EST">
     <groups>
     </groups>
-    <test name="Freecrm App Test" duration-ms="15282" started-at="2020-10-27T17:54:35 EDT" finished-at="2020-10-27T17:54:51 EDT">
+    <test name="Freecrm App Test" duration-ms="15361" started-at="2020-12-08T13:53:48 EST" finished-at="2020-12-08T13:54:03 EST">
       <class name="com.qa.testcases.Logintest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.Logintest@26be92ad]" name="setup" is-config="true" duration-ms="9650" started-at="2020-10-27T17:54:35 EDT" finished-at="2020-10-27T17:54:45 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.Logintest@26be92ad]" name="setup" is-config="true" duration-ms="9586" started-at="2020-12-08T13:53:48 EST" finished-at="2020-12-08T13:53:57 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginDemo()[pri:0, instance:com.qa.testcases.Logintest@26be92ad]" name="loginDemo" duration-ms="4886" started-at="2020-10-27T17:54:45 EDT" finished-at="2020-10-27T17:54:50 EDT">
+        <test-method status="PASS" signature="loginDemo()[pri:0, instance:com.qa.testcases.Logintest@26be92ad]" name="loginDemo" duration-ms="5051" started-at="2020-12-08T13:53:57 EST" finished-at="2020-12-08T13:54:03 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDemo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.Logintest@26be92ad]" name="tearDown" is-config="true" duration-ms="704" started-at="2020-10-27T17:54:50 EDT" finished-at="2020-10-27T17:54:51 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.Logintest@26be92ad]" name="tearDown" is-config="true" duration-ms="680" started-at="2020-12-08T13:54:03 EST" finished-at="2020-12-08T13:54:03 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

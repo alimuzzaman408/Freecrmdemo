@@ -2,20 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="freecrm suite" duration-ms="13789" started-at="2020-10-26T01:37:17 EDT" finished-at="2020-10-26T01:37:31 EDT">
+  <suite name="freecrm suite" duration-ms="14263" started-at="2020-12-10T01:30:17 EST" finished-at="2020-12-10T01:30:31 EST">
     <groups>
     </groups>
-    <test name="Freecrm App Test" duration-ms="13789" started-at="2020-10-26T01:37:17 EDT" finished-at="2020-10-26T01:37:31 EDT">
+    <test name="Freecrm App Test" duration-ms="14263" started-at="2020-12-10T01:30:17 EST" finished-at="2020-12-10T01:30:31 EST">
       <class name="com.qa.testcases.Logintest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.Logintest@3fd7a715]" name="setup" is-config="true" duration-ms="8129" started-at="2020-10-26T01:37:17 EDT" finished-at="2020-10-26T01:37:25 EDT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.qa.testcases.Logintest@4493d195]" name="setup" is-config="true" duration-ms="8091" started-at="2020-12-10T01:30:17 EST" finished-at="2020-12-10T01:30:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginDemo()[pri:0, instance:com.qa.testcases.Logintest@3fd7a715]" name="loginDemo" duration-ms="4855" started-at="2020-10-26T01:37:25 EDT" finished-at="2020-10-26T01:37:30 EDT">
+        <test-method status="PASS" signature="loginDemo()[pri:0, instance:com.qa.testcases.Logintest@4493d195]" name="loginDemo" duration-ms="5162" started-at="2020-12-10T01:30:25 EST" finished-at="2020-12-10T01:30:31 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDemo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.Logintest@3fd7a715]" name="tearDown" is-config="true" duration-ms="731" started-at="2020-10-26T01:37:30 EDT" finished-at="2020-10-26T01:37:31 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.Logintest@4493d195]" name="tearDown" is-config="true" duration-ms="762" started-at="2020-12-10T01:30:31 EST" finished-at="2020-12-10T01:30:31 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

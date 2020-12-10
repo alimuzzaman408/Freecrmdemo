@@ -2,11 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="freecrm suite">
-	<test name="Freecrm App Test">		
-		<classes>
+
+	<listeners>
+		    <listener class-name="com.qa.util.Reporting" />
+	</listeners>
+	
+	   <test name="Freecrm App Test">
+		<parameter name="browser" value="chrome" />
+		 <classes>
 			<class name="com.qa.testcases.Logintest" />
-			<!-- <class name="com.qa.testcases.LoginTest_DDT" /> -->			
-		</classes>
+		    <!-- <class name="com.qa.testcases.LoginTest_DDT" /> -->
+		 </classes>
 	</test>
 
 </suite>
